@@ -1,0 +1,20 @@
+mixin titles(title)
+    title=title 
+
+mixin style-head(style)
+    link(rel="stylesheet", href="../css/"+style)
+
+mixin style-head-responsive(stylesResponsive, screen) 
+    link(rel="stylesheet", href="../css/"+stylesResponsive media="screen and (min-width:" +screen+"px)")
+
+mixin figure-img(srcImg, altImg)
+    figure(class!=attributes.class)
+        img(src="https://drive.google.com/uc?id="+srcImg, alt=altImg)
+
+mixin inputs(classLabel, forLabel, classP, title, idInput, classInput, typeInput, nameInput, placeholderInput)
+    label(class=classLabel for=forLabel)
+        p(class=classP)=title
+        input(id=idInput class=classInput type=typeInput name=nameInput placeholder=placeholderInput)
+        
+mixin button-submit(classInput, valueInput)
+    input(class=classInput type="submit" value=valueInput)
