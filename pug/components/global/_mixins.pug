@@ -18,3 +18,11 @@ mixin inputs(classLabel, forLabel, classP, title, idInput, classInput, typeInput
         
 mixin button-submit(classInput, valueInput)
     input(class=classInput type="submit" value=valueInput)
+
+mixin logo-yard-sale()
+    .logo-container
+        figure.logo
+            img(src="https://drive.google.com/uc?id=1j2ShTvw2GjJu2Cl0he0c4wvMUC5To__S", alt="Logo Yard Sale")
+        h2.logo__title 
+            span.logo__title--green Yard 
+            |Sale

@@ -1,0 +1,23 @@
+.logo-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0.427rem;
+    place-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 2.635rem;
+    height: 2.635rem;
+    justify-self: end;
+    
+    &__title {
+        display: inline-block;
+        justify-self: start;
+    }
+
+    &__title--green {
+        text-transform: uppercase;
+        color: $hospital-green;
+    }
+}
