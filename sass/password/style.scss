@@ -1,5 +1,7 @@
 @import "../components/global/global";
 @import "..//components/global/input";
+@import "..//components/global/logo-yard-sale";
+
 
 .main {
     width: 100%;
@@ -12,25 +14,10 @@
     height: 100vh;
 }
 
-.main__form-container {
+.main__form {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 90%;
+    text-align: center;
 }
 
-.logo-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.logo {
-    width: 2.6rem;
-    margin-right: 0.427rem;
-}
-
-.logo__title {
-    &--green {
-        color: $hospital-green;
-    }
-}
