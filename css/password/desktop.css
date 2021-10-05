@@ -1,0 +1,8 @@
+.main__form-container {
+    -ms-grid-rows: 1fr auto;
+    grid-template-rows: 1fr auto;
+}
+
+.logo-container {
+    display: none;
+}
