@@ -1,6 +1,13 @@
+// font family
 $font-primary: 'Quicksand', sans-serif;
 $font-secondary: 'Roboto', sans-serif;
 
-// h2 {
-//     font-size: 1.8rem;
-// }
+// font size
+$small: 1.4rem;
+$medium: 1.6rem;
+$large: 1.8rem;
+$extra-large: 2.4rem;
+
+h1 {
+    font-size: $large;
+}

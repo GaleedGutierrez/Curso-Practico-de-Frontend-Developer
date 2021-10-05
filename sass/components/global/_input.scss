@@ -1,0 +1,21 @@
+.title-input {
+    margin-bottom: 0.6rem;
+    font-size: $small;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    max-width: 34rem;
+    height: 4.2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2.4rem;
+    font-size: $medium;
+    background-color: $text-input-field;
+}
+
+.title-input {
+    text-align: initial;
+}

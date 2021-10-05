@@ -1,6 +1,7 @@
 @import "../components/global/global";
 @import "..//components/global/input";
 @import "..//components/global/logo-yard-sale";
+@import "..//components/global/button-forms";
 
 
 .main {
@@ -11,13 +12,31 @@
     display: grid;
     place-items: center;
     width: 100%;
+    max-width: 33.9rem;
     height: 100vh;
+    margin: 0 auto;
 }
 
-.main__form {
+.main__form-container {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 90%;
     text-align: center;
 }
 
+.form-container__title-container {
+    margin-bottom: 4.2rem;
+
+    .title {
+        margin-bottom: 0.9rem;
+    }
+    .subtitle {
+        font-size: $small;
+        font-weight: 300;
+        color: $very-light-pink;
+    }
+}
+
+.logo-container {
+    margin-bottom: 8.08rem;
+}
