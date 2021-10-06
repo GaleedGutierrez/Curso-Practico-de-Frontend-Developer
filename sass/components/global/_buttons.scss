@@ -1,0 +1,31 @@
+.button-forms {
+    width: 100%;
+    height: 5.9rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: $medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-forms--primary {
+    margin-top: 1.1rem;
+    color: $white;
+    background-color: $hospital-green;
+
+    &:focus {
+        background-color: $hospital-green-hard;
+    }
+}
+
+.button-forms--secondary {
+    border: 0.1rem solid $hospital-green;
+    color: $hospital-green;
+    background-color: $white;
+
+    &:focus {
+        color: $white;
+        background-color: $hospital-green;
+        border: none;
+    }
+}

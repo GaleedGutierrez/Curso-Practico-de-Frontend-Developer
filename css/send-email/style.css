@@ -1,10 +1,13 @@
+p {
+    color: #232830;
+}
+
 h1 {
     font-size: 1.8rem;
 }
 
-p {
+p, a {
     font-size: 1.4rem;
-    color: #232830;
 }
 
 * {
@@ -63,16 +66,29 @@ img {
     height: 5.9rem;
     border: none;
     border-radius: 1rem;
-    margin-top: 1.1rem;
     font-size: 1.6rem;
     font-weight: bold;
-    color: #ffffff;
-    background-color: #acd9b2;
     cursor: pointer;
 }
 
-.button-forms:focus {
+.button-forms--primary {
+    margin-top: 1.1rem;
+    color: #ffffff;
+    background-color: #acd9b2;
+}
+.button-forms--primary:focus {
     background-color: #91B888;
+}
+
+.button-forms--secondary {
+    border: 0.1rem solid #acd9b2;
+    color: #acd9b2;
+    background-color: #ffffff;
+}
+.button-forms--secondary:focus {
+    color: #ffffff;
+    background-color: #acd9b2;
+    border: none;
 }
 
 .main {

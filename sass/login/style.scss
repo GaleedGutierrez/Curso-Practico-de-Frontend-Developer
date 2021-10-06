@@ -1,0 +1,24 @@
+@import "../components/global/global";
+@import "../components/global/input";
+@import "../components/global/logo-yard-sale";
+@import "../components/global/buttons";
+@import "../components/global/base-forms";
+
+.main__login {
+}
+
+.main__form-container {
+    grid-template-rows: repeat(4, auto);
+    height: 80%;
+}
+
+.main__form-container{
+}
+
+.main__forgot {
+    margin: 3rem 0 6rem;
+    color: $hospital-green;
+}
+
+.signup-button {
+}
