@@ -1,0 +1,19 @@
+extend ../components/global/_global.pug
+block head
+    +style-head("send-email/style.css")
+    +style-head-responsive("send-email/desktop.css", "1024")
+    +titles("Email")
+block main
+    main.main
+        section.main__login
+            section.main__form-container
+                +logo-yard-sale
+                .form-container__title-container 
+                    h1.title Email has been sent!
+                    p.subtitle Please check your inbox for instructions on how to reset the password
+                .email-image-container
+                    +figure-img("1HPrwlsOCCDZRoj-hfTCFSQHgRAtIxCgo", "Letter envelope icon").email-image
+                +button-submit("button-forms button-login", "Login")
+                p.main__resent
+                    span.resent__text Didn't reveive the email 
+                    a(href="").resent__anchor Resend
