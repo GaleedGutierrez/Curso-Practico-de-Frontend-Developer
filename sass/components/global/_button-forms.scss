@@ -10,3 +10,7 @@
     background-color: $hospital-green;
     cursor: pointer;
 }
+
+.button-forms:focus {
+    background-color: $hospital-green-hard;
+}

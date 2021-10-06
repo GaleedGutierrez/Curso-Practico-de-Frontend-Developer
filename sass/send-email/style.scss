@@ -1,0 +1,37 @@
+@import "../components/global/global";
+@import "..//components/global/logo-yard-sale";
+@import "..//components/global/button-forms";
+@import "../components/global/base-forms";
+
+.main__form-container {
+    place-items: center;
+    grid-template-rows: auto 1fr repeat(3, auto);
+}
+
+.email-image-container {
+    display: grid;
+    place-items: center;
+    width: 15.3rem;
+    height: 15.3rem;
+    border-radius: 50%;
+    background-color: $text-input-field;
+
+    .email-image {
+        width: 9rem;
+    }
+}
+
+.button-login {
+    margin: 3.8rem 0 3rem;
+}
+
+.main__resent {
+    .resent__text,
+    .resent__ancho {
+        font-weight: 500;
+    }
+
+    .resent__anchor {
+        color: $hospital-green;
+    }
+}
