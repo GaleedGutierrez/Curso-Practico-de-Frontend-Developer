@@ -11,10 +11,10 @@ mixin figure-img(srcImg, altImg)
     figure(class!=attributes.class)
         img(src="https://drive.google.com/uc?id="+srcImg, alt=altImg)
 
-mixin inputs(classLabel, forLabel, classP, title, idInput, classInput, typeInput, nameInput, placeholderInput)
-    label(class=classLabel for=forLabel)
+mixin inputs(classLabel, forLabelIdNameInput, classP, title, classInput, typeInput, placeholderInput, autocompleteInput)
+    label(class=classLabel for=forLabelIdNameInput)
         p(class=classP)=title
-        input(id=idInput class=classInput type=typeInput name=nameInput placeholder=placeholderInput autocomplete="new-password" required)
+        input(id=forLabelIdNameInput class=classInput type=typeInput name=forLabelIdNameInput placeholder=placeholderInput autocomplete=autocompleteInput required)
         
 mixin button-submit(classInput, valueInput)
     input(class=classInput type="submit" value=valueInput)

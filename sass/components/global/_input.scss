@@ -1,7 +1,8 @@
-.title-input {
+.input-title {
     margin-bottom: 0.6rem;
     font-size: $small;
     font-weight: bold;
+    text-align: initial;
 }
 
 .input {
@@ -14,8 +15,4 @@
     margin-bottom: 2.4rem;
     font-size: $medium;
     background-color: $text-input-field;
-}
-
-.title-input {
-    text-align: initial;
 }

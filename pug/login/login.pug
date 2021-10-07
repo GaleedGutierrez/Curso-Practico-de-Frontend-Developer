@@ -1,0 +1,16 @@
+extend ../components/global/_global.pug
+block head
+    +style-head("login/style.css")
+    +style-head-responsive("login/desktop.css", "1024")
+    +titles("Login")
+block main
+    main.main
+        section.main__login
+            section.main__form-container
+                +logo-yard-sale
+                form(action="").form-container__form
+                    +inputs("label", "email", "input-title", "Email address", "input input-password", "password", "name@example.com", "email")
+                    +inputs("label", "password", "input-title", "Password", "input input-password", "password", "Password", "current-password")
+                    +button-submit("button-forms button-forms--primary login-button", "Log in")
+                a(href="").main__forgot Forgot my password
+            button.button-forms.button-forms--secondary.signup-button Sign up

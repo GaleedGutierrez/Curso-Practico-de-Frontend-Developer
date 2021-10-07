@@ -4,4 +4,18 @@
 @import "../components/global/buttons";
 @import "../components/global/base-forms";
 
+.main__login {
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10%;
+}
 
+.main__forgot {
+    margin-top: 3rem;
+    color: $hospital-green;
+}
+
+
+.signup-button {
+    width: 90%;
+    margin-bottom: 2.5rem;
+}

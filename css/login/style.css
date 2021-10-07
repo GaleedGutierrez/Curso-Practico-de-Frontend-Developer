@@ -152,3 +152,19 @@ html, body, main {
 .logo-container {
     margin-bottom: 8.08rem;
 }
+
+.main__login {
+    -ms-grid-rows: auto 10% auto;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10%;
+}
+
+.main__forgot {
+    margin-top: 3rem;
+    color: #acd9b2;
+}
+
+.signup-button {
+    width: 90%;
+    margin-bottom: 2.5rem;
+}
