@@ -5,14 +5,17 @@
 @import "../components/global/base-forms";
 
 .main__login {
-}
-
-.main__form-container {
-    grid-template-rows: repeat(4, auto);
-    height: 80%;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10%;
 }
 
 .main__forgot {
-    margin: 3rem 0 6rem;
+    margin-top: 3rem;
     color: $hospital-green;
+}
+
+
+.signup-button {
+    width: 90%;
+    margin-bottom: 2.5rem;
 }

@@ -1,0 +1,16 @@
+@import "../components/global/hidden-logo";
+
+.main__login {
+    // grid-template-rows: 30rem auto;
+    grid-gap: 0;
+}
+
+.main__form-container {
+    grid-template-rows: 1fr auto;
+    align-self: end;
+    margin-bottom: 6rem;
+}
+
+.signup-button {
+    align-self: start;
+}

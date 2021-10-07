@@ -1,7 +1,5 @@
+@import "../components/global/hidden-logo";
+
 .main__form-container {
     grid-template-rows: 1fr repeat(4, auto);
-}
-
-.logo-container {
-    display: none;
 }

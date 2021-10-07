@@ -110,6 +110,10 @@ img {
     border: none;
 }
 
+html, body, main {
+    height: 100%;
+}
+
 .main {
     width: 100%;
 }
@@ -120,7 +124,8 @@ img {
     place-items: center;
     width: 100%;
     max-width: 33.9rem;
-    height: 100vh;
+    height: 100%;
+    min-height: 60rem;
     margin: 0 auto;
 }
 
@@ -130,6 +135,7 @@ img {
     -ms-grid-rows: auto 1fr auto;
     grid-template-rows: auto 1fr auto;
     width: 90%;
+    margin-top: 4rem;
     text-align: center;
 }
 
