@@ -1,0 +1,17 @@
+extend ../components/global/_global.pug
+block head
+    +style-head("create-edit-account/style.css")
+    +style-head-responsive("create-edit-account/desktop.css", "1024")
+    +titles("Create")
+block main
+    main.main
+        section.main__login
+            section.main__form-container
+                .form-container__title-container 
+                    h1.title My account 
+                form(action="").form-container__form
+                    .form-div
+                        +inputs("label", "name", "input-title", "Name", "input input-name", "text", "Your name", "name")
+                        +inputs("label", "email", "input-title", "Email address", "input input-email", "email", "youremail@gmail.com", "email")
+                        +inputs("label", "password", "input-title", "Password", "input input-password", "password", "Password", "new-password")
+                    +button-submit("button-forms button-forms--primary button-create", "Create")

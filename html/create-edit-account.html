@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&amp;family=Roboto:wght@700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/create-edit-account/style.css"/>
+    <link rel="stylesheet" href="../css/create-edit-account/desktop.css" media="screen and (min-width:1024px)"/>
+    <title>Create</title>
+  </head>
+  <body>
+    <header class="header"></header>
+    <main class="main">
+      <section class="main__login">
+        <section class="main__form-container">
+          <div class="form-container__title-container"> 
+            <h1 class="title">My account </h1>
+          </div>
+          <form class="form-container__form" action="">
+            <div class="form-div">
+              <label class="label" for="name">
+                <p class="input-title">Name</p>
+                <input class="input input-name" id="name" type="text" name="name" placeholder="Your name" autocomplete="name" required="required"/>
+              </label>
+              <label class="label" for="email">
+                <p class="input-title">Email address</p>
+                <input class="input input-email" id="email" type="email" name="email" placeholder="youremail@gmail.com" autocomplete="email" required="required"/>
+              </label>
+              <label class="label" for="password">
+                <p class="input-title">Password</p>
+                <input class="input input-password" id="password" type="password" name="password" placeholder="Password" autocomplete="new-password" required="required"/>
+              </label>
+            </div>
+            <input class="button-forms button-forms--primary button-create" type="submit" value="Create"/>
+          </form>
+        </section>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
