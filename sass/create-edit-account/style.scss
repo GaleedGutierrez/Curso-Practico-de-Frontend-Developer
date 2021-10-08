@@ -1,0 +1,27 @@
+@import "../components/global/global";
+@import "../components/global/input";
+@import "../components/global/buttons";
+@import "../components/global/base-forms";
+
+.main__form-container {
+    height: 100%;
+    margin: 0;
+}
+
+.form-container__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.form-container__title-container {
+    .title {
+        text-align: start;
+        margin: 0;
+    }
+}
+
+.button-create {
+    margin-bottom: 2.5rem;
+}
