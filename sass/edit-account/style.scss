@@ -1,0 +1,12 @@
+@import "../components/global/global";
+@import "../components/global/buttons";
+@import "../components/global/input";
+@import "../components/global/base-forms";
+@import "../create-account/style.scss";
+
+.value {
+    margin: 1.4rem 0 3.8rem;
+    font-size: $medium;
+    color: $very-light-pink;
+    text-align: start;
+}

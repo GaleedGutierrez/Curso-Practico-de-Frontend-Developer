@@ -1,0 +1,17 @@
+extend ../components/global/_global.pug
+block head
+    +style-head("edit-account/style.css")
+    +style-head-responsive("edit-account/desktop.css", "1024")
+    +titles("Create")
+block main
+    main.main
+        section.main__login
+            section.main__form-container
+                .form-container__title-container 
+                    h1.title My account 
+                form(action="").form-container__form
+                    .form-div
+                        +data-user-p("label", "name", "form__title input-title", "Name", "value","Camila Yokoo")
+                        +data-user-p("label", "email", "form__title input-title", "Email address", "value","camilayokoo@gmail.com")
+                        +data-user-p("label", "password", "form__title input-title", "Password", "value","*********")
+                    +button-submit("button-forms button-forms--secondary button-create", "Edit")
