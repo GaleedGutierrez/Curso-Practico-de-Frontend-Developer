@@ -26,3 +26,8 @@ mixin logo-yard-sale()
         h2.logo__title 
             span.logo__title--green Yard 
             |Sale
+
+mixin data-user-p(classLabel, forLabel, classTitle, title, classData, content)
+    label(class=classLabel for=forLabel)
+        p(class=classTitle)=title
+        p(class=classData)=content
