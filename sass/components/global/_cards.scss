@@ -1,0 +1,41 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 14rem);
+    place-content: center;
+    gap: 2.6rem;
+}
+
+.product-card {
+    width: 100%;
+}
+
+.product-img-container {
+    height: 14rem;
+}
+
+.product-img {
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.product-price {
+    font-family: $font-secondary;
+    font-size: $medium;
+    font-weight: bold;
+}
+
+.product-name {
+    color: $very-light-pink;
+}
+
+.add-to-cart {
+    width: 3.5rem;
+    height: 3.5rem;
+}

@@ -33,14 +33,16 @@ mixin data-user-p(classLabel, forLabel, classTitle, title, classData, content)
         p(class=classData)=content
 
 mixin product-card-mixin(imgProduct1024, imgProduct800, imgProduct320, altProduct, priceProduct, nameProduct)
-    .product-card 
-        picture.product-img
-            source(media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id="+imgProduct1024)
-            source(media="(min-width: 800px)" srcset="https://drive.google.com/uc?id="+imgProduct800)
-            img(src="https://drive.google.com/uc?id="+imgProduct320, alt=altProduct)
+    .product-card
+        figure(tabindex="0" title=altProduct).product-img-container
+            picture
+                source(media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id="+imgProduct1024)
+                source(media="(min-width: 800px)" srcset="https://drive.google.com/uc?id="+imgProduct800)
+                img(src="https://drive.google.com/uc?id="+imgProduct320, alt=altProduct).product-img
         .product-details 
-            p.product-price=priceProduct
-            p.product-name=nameProduct
-        figure.add-to-cart 
-            img(src="https://drive.google.com/uc?id=1nkWqKAzdlfolis7ICFA_ckW1RhtUX43e", alt="Add to cart icon")
+            .product-info
+                p.product-price=priceProduct
+                p.product-name=nameProduct
+            figure(tabindex="0" title="Add to cart icon").add-to-cart 
+                img(src="https://drive.google.com/uc?id=1nkWqKAzdlfolis7ICFA_ckW1RhtUX43e", alt="Add to cart icon")
 
