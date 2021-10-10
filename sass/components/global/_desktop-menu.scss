@@ -1,0 +1,31 @@
+.desktop-menu {
+    width: 15.3rem;
+    height: auto;
+    padding: 2.5rem;
+    border: 0.1rem solid $very-light-pink;
+    border-radius: 0.6rem;
+}
+
+.desktop-menu__item {
+    text-align: end;
+}
+
+.desktop-menu__text {
+    display: inline-block;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: $black;
+}
+
+.desktop-menu__sing-out-container {
+    padding-top: 2rem;
+    border-top: 0.1rem solid $very-light-pink;
+}
+
+.desktop-menu__sing-out {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: $hospital-green;
+}
