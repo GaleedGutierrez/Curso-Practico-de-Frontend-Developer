@@ -1,0 +1,51 @@
+.mobile-menu {
+    display: grid;
+    height: 100%;
+    min-height: 645px;
+    padding: 12%;
+}
+
+.mobile-menu__conteiners {
+    margin-bottom: 4rem;
+}
+
+.mobile-menu__categories-container {
+    border-bottom: 0.1rem solid $very-light-pink;
+
+    .mobile-menu__item:last-child {
+        margin-bottom: 4rem;
+    }
+}
+
+.mobile-menu__item {
+    margin-bottom: 2.4rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.mobile-menu__email-sign-out-container {
+    align-self: end;
+    margin-bottom: 0;
+}
+
+.mobile-menu__text {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: $black;
+}
+
+.mobile-menu__email,
+.mobile-menu__sign-out {
+    font-size: $small;
+}
+
+.mobile-menu__email {
+    font-weight: 300;
+}
+
+.mobile-menu__sign-out {
+    color: $hospital-green;
+}
