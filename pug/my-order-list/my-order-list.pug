@@ -1,0 +1,15 @@
+extend ../components/global/_global.pug
+block head
+    +style-head("my-order-list/style.css")
+    +style-head-responsive("my-order-list/desktop.css", "1024")
+    +titles("My order list")
+block main
+    main.main
+        section.my-order
+            section.my-order-container
+                h1.my-order__title My orders
+                .my-order-content
+                        each cantidad in [1, 2, 3]
+                            .my-order-content__resume
+                                +products-list("03.25.21", "6 articles", "$560.00")
+                                +figure-img("1ysh11DQbWIoAWs_DTOcn7AQv79KaimVw", "Arrow right").my-order-content__arrow-right

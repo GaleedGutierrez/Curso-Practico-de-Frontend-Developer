@@ -1,0 +1,28 @@
+@import "../components/global/global";
+@import "../components/product-list/products-list-base";
+
+.my-order-content__resume {
+    height: auto;
+    padding: 0;
+    margin-bottom: 2rem;
+    background-color: initial;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.my-order-content__arrow-right {
+    width: 0.7rem;
+    height: auto;
+}
+
+.my-order-content__resume {
+    grid-template-columns: auto 1fr auto;
+    gap: 1.8rem;
+    justify-content: initial;
+}
+
+.my-order-content__total {
+    text-align: end;
+}

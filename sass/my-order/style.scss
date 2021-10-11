@@ -1,55 +1,5 @@
 @import "../components/global/global";
-@include hundread-percent-height;
-
-.my-order {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.my-order__title {
-    margin-bottom: 4.7rem;
-    font-size: $large;
-}
-
-.my-order-content__resume {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 7.6rem;
-    padding: 1.6rem 1.8rem;
-    margin-bottom: 2.4rem;
-    border-radius: 0.8rem;
-    font-weight: bold;
-    background-color: $text-input-field;
-
-}
-
-.my-order-content__date-articles {
-    display: flex;
-    flex-direction: column;
-}
-
-.my-order-content__date {
-    font-size: $medium;
-}
-
-.my-order-content__articles {
-    color: $very-light-pink;
-}
-
-.my-order-content__total {
-    font-size: $medium;
-}
-
-.my-order-container {
-    display: grid;
-    grid-template-rows: auto 1fr;
-    width: 30rem;
-}
+@import "../components/product-list/products-list-base";
 
 .shopping-cart {
     display: grid;
