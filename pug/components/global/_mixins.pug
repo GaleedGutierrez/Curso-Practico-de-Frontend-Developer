@@ -46,10 +46,15 @@ mixin product-card-mixin(imgProduct1024, imgProduct800, imgProduct320, altProduc
             figure(tabindex="0" title="Add to cart icon").add-to-cart 
                 img(src="https://drive.google.com/uc?id=1nkWqKAzdlfolis7ICFA_ckW1RhtUX43e", alt="Add to cart icon")
 
-mixin producto-cart-mixin(imgProductCart, altNameTitleProductCart, priceProductcart)
+mixin product-cart-mixin(imgProductCart, altNameTitleProductCart, priceProductcart)
     .shopping-cart 
         figure(tabindex="0" title=altNameTitleProductCart).shopping-cart__img-container 
             img(src="https://drive.google.com/uc?id="+imgProductCart, alt=altNameTitleProductCart).shopping-cart__img
         p.shopping-cart__name=altNameTitleProductCart
         p.shopping-cart__price=priceProductcart
 
+mixin products-list(date, articles, total)
+    p.my-order-content__date-articles
+        span.my-order-content__date=date
+        span.my-order-content__articles=articles 
+    p.my-order-content__total=total
