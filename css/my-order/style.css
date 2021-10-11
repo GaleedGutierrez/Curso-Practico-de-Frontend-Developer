@@ -1,0 +1,35 @@
+p {
+  color: #232830;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+p, a {
+  font-size: 1.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

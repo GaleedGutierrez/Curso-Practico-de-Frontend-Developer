@@ -1,0 +1,16 @@
+extend ../components/global/_global.pug
+block head
+    +style-head("my-order/style.css")
+    +style-head-responsive("my-order/desktop.css", "1024")
+    +titles("My order")
+block main
+    main.main
+        section.my-order
+            .my-order-content
+                p 
+                    span 03-25-21
+                    span 6 articles 
+                p $560.00
+            section.shopping-carts-container 
+                each cantidad in [1, 2, 3, 4, 5, 6, 7]
+                    +producto-cart-mixin("1obnGAPs1OMuh79GmVS1oejGCFwDBF-bB", "Bike", "$30")=cantidad
