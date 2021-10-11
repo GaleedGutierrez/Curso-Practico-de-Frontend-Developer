@@ -1,6 +1,4 @@
-html, body, main {
-    height: 100%;
-}
+@include hundread-percent-height;
 
 .main {
     width: 100%;
