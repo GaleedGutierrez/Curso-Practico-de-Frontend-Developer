@@ -1,34 +1,23 @@
-include ../global/_mixins.pug
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        link(rel="stylesheet", href="../css/components/header/header.css")
-        link(rel="stylesheet", href="../css/components/header/desktop.css" media="screen and (min-width: 800px)")
-        title Document
-    body 
-        header.header
-            +figure-img("1W7Gi9MRU0W3qf4ko_h7NPBuVXDc54RTw", "Menu").header__menu
-            nav.header__navbar-left
-                +logo-yard-sale
-                ul.header-navbar__ul.navbar-left__categories-container
-                    li.header__item.navbar-left__category
-                        a(href="").header__content.navbar-left__text All
-                    li.header__item.navbar-left__category
-                        a(href="").header__content.navbar-left__text Clothes
-                    li.header__item.navbar-left__category
-                        a(href="").header__content.navbar-left__text Electronics
-                    li.header__item.navbar-left__category
-                        a(href="").header__content.navbar-left__text Furnitures
-                    li.header__item.navbar-left__category
-                        a(href="").header__content.navbar-left__text Toys
-                    li.header__item.navbar-left__category
-                        a(href="").header__content.navbar-left__text Others
-            section.header__navbar-right
-                ul.header-navbar__ul.navbar-right__ul
-                    li.header__content.header__item.navbar-right__email platzi@example.com
-                    li.header__item.navbar-right__shopping-cart
-                        +figure-img("1XOzXCGlZQbNBXY7410nFMacq810IvY4d", "Shopping cart").header__content.navbar-right__shopping-cart-icon
-                        p.header__content.navbar-right__products-number 2
+header.header
+    +figure-img("1W7Gi9MRU0W3qf4ko_h7NPBuVXDc54RTw", "Menu").header__menu
+    nav.header__navbar-left
+        +logo-yard-sale
+        ul.header-navbar__ul.navbar-left__categories-container
+            li.header__item.navbar-left__category
+                a(href="").header__content.navbar-left__text All
+            li.header__item.navbar-left__category
+                a(href="").header__content.navbar-left__text Clothes
+            li.header__item.navbar-left__category
+                a(href="").header__content.navbar-left__text Electronics
+            li.header__item.navbar-left__category
+                a(href="").header__content.navbar-left__text Furnitures
+            li.header__item.navbar-left__category
+                a(href="").header__content.navbar-left__text Toys
+            li.header__item.navbar-left__category
+                a(href="").header__content.navbar-left__text Others
+    section.header__navbar-right
+        ul.header-navbar__ul.navbar-right__ul
+            li.header__content.header__item.navbar-right__email platzi@example.com
+            li.header__item.navbar-right__shopping-cart
+                +figure-img("1XOzXCGlZQbNBXY7410nFMacq810IvY4d", "Shopping cart").header__content.navbar-right__shopping-cart-icon
+                p.header__content.navbar-right__products-number 2
