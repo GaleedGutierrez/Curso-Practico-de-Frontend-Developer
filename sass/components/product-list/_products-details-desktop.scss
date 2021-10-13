@@ -1,0 +1,12 @@
+.product-detail {
+    position: absolute;
+    top: 6.4rem;
+    right: 1rem;
+    max-width: 384px;
+    border-radius: 2rem;
+    box-shadow: 0px 0.2rem 0.6rem rgba($black, 0.2);
+}
+
+.product-detail__product-photo {
+    border-radius: 2rem;
+}

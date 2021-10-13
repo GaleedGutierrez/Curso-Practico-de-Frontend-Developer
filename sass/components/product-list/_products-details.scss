@@ -1,0 +1,74 @@
+@import "../components/global/buttons";
+
+.product-detail {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-color: $white;
+}
+
+.product-detail__close-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1.2rem;
+    left: 1.2rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 1.4rem;
+    border-radius: 50%;
+    background-color: $white;
+    cursor: pointer;
+}
+
+.product-detail__product-photo-container {
+    width: 100%;
+    height: 38.4rem;
+    object-fit: cover;
+}
+
+.product-detail__product-photo {
+    border-radius: 0 0 2rem 2rem;
+    object-fit: cover;
+}
+
+.product-detail__info {
+    margin: 4.6rem 3.4rem 2.2rem;
+}
+
+.product-detail__info-text {
+    color: $dark;
+}
+
+.product-detail__price,
+.product-detail__product-name {
+    font-size: $large;
+}
+
+.product-detail__price {
+    color: $black;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.product-detail__product-name {
+    margin-bottom: 2rem;
+}
+
+.product-detail__description {
+    margin-bottom: 3.7rem;
+    font-size: $medium;
+}
+
+.product-detail__add-to-cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail__cart-button-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1rem;
+}
