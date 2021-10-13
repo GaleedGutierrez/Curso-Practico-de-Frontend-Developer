@@ -1,0 +1,16 @@
+@import "../global/global";
+
+.header__menu {
+    display: none;
+}
+
+.navbar-left__categories-container {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.navbar-right__email {
+    display: flex;
+    margin-right: 1rem;
+    font-size: $small;
+}
