@@ -1,6 +1,10 @@
 @import "../components/global/global";
 @import "../components/product-list/products-list-base";
 
+.shopping-cart__close-icon {
+    display: none;
+}
+
 .shopping-cart {
     display: grid;
     grid-template-columns: auto 1fr auto;
