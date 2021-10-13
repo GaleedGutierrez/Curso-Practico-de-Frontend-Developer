@@ -52,6 +52,8 @@ mixin product-cart-mixin(imgProductCart, altNameTitleProductCart, priceProductca
             img(src="https://drive.google.com/uc?id="+imgProductCart, alt=altNameTitleProductCart).shopping-cart__img
         p.shopping-cart__name=altNameTitleProductCart
         p.shopping-cart__price=priceProductcart
+        figure.shopping-cart__close-icon
+            img(src="https://drive.google.com/uc?id=1VEIsr1Sv1wq316XZEimzg60lgo2QDT1X", alt="Close icon")
 
 mixin products-list(date, articles, total)
     p.my-order-content__date-articles

@@ -1,0 +1,44 @@
+@import "../product-list/products-details";
+@import "../../my-order/style.scss";
+@import "../global/buttons";
+
+html, body,main {
+    height: inherit;
+}
+
+.product-detail {
+    width: 95%;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.product-detail__title-container {
+    display: flex;
+    margin-bottom: 2.2rem;
+}
+
+.shopping-cart {
+    grid-template-columns: auto 1fr auto auto;
+}
+
+.shopping-carts-container {
+    margin-bottom: 5.4rem;
+}
+
+.my-order-content__resume {
+    margin-bottom: 0.7rem;
+}
+
+.shopping-cart__close-icon {
+    display: initial;
+}
+
+.product-detail__arrow {
+    margin-right: 2rem;
+    transform: rotate(180deg);
+}
+
+.my-order__title {
+    font-weight: bold;
+    margin-bottom: 0;
+}
