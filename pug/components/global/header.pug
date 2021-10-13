@@ -1,0 +1,33 @@
+include ../global/_mixins.pug
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/components/header/header.css")
+        title Document
+    body 
+        header.header
+            +figure-img("1W7Gi9MRU0W3qf4ko_h7NPBuVXDc54RTw", "Menu")
+            +logo-yard-sale
+            nav.header__navbar-left
+                ul.navbar-left__categories-container
+                    li.navbar-left__category
+                        a(href="") All
+                    li.navbar-left__category
+                        a(href="") Clothes
+                    li.navbar-left__category
+                        a(href="") Electronics
+                    li.navbar-left__category
+                        a(href="") Furnitures
+                    li.navbar-left__category
+                        a(href="") Toys
+                    li.navbar-left__category
+                        a(href="") Others
+            section.header__navbar-right
+                ul.navbar-right__ul
+                    li.navbar-right__email platzi@example.com
+                    li.navbar-right__shopping-cart
+                        +figure-img("1AFZWI8mXp0QpjlFvYD8z9Ns5YiMqs7j4", "Shopping cart").navbar-right__shopping-cart-icon
+                        p.navbar-right__products-number 2
