@@ -541,6 +541,11 @@ html, body, main {
     height: inherit;
 }
 
+.main-container {
+    -webkit-margin-before: 2rem;
+            margin-block-start: 2rem;
+}
+
 .product-detail {
     width: 95%;
     padding-bottom: 2rem;
