@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,eAAe,CAAC;EACZ,OAAO,EAAE,IAAI;CAChB;;ADAD,AAAA,qBAAqB,CAAC;EAClB,kBAAkB,EAAE,GAAG,CAAC,eAAe;CAC1C",
+    "sources": [
+        "../send-email/desktop.scss",
+        "../components/global/_hidden-logo.scss"
+    ],
+    "names": [],
+    "file": "desktop.css"
+}
