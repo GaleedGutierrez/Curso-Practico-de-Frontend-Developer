@@ -1,5 +1,7 @@
 extend ../components/global/_global.pug
 block head
+    - const SEE_HEADER = false
+    - const SEE_FOOTER = false
     +style-head("my-order-list/style.css")
     +style-head-responsive("my-order-list/desktop.css", "1024")
     +titles("My order list")

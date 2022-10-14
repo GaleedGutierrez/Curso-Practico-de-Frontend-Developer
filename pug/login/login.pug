@@ -1,5 +1,7 @@
 extend ../components/global/_global.pug
 block head
+    - const SEE_HEADER = false
+    - const SEE_FOOTER = false
     +style-head("login/style.css")
     +style-head-responsive("login/desktop.css", "1024")
     +titles("Login")

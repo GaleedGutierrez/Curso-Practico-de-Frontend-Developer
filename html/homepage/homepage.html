@@ -7,9 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&amp;family=Roboto:wght@700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/homepage/style.css"/>
-    <link rel="stylesheet" href="../css/homepage/desktop.css" media="screen and (min-width:800px)"/>
-    <title>Shop</title>
+    <link rel="stylesheet" href="../../css/homepage/style.css"/>
+    <link rel="stylesheet" href="../../css/homepage/desktop.css" media="screen and (min-width:800px)"/>
+    <title>YardSale: tienda online de cositas chidas</title>
   </head>
   <body>
     <header class="header">
@@ -31,6 +31,13 @@
       <section class="header__navbar-right">
         <ul class="header-navbar__ul navbar-right__ul">
           <li class="header__content header__item navbar-right__email">platzi@example.com</li>
+          <div class="desktop-menu inactive">
+            <ul class="desktop-menu__item-container"> 
+              <li class="desktop-menu__item"><a class="desktop-menu__text desktop-menu__title" href=""> My orders</a></li>
+              <li class="desktop-menu__item"><a class="desktop-menu__text" href="">My account</a></li>
+              <li class="desktop-menu__item desktop-menu__sing-out-container"><a class="desktop-menu__text desktop-menu__sing-out" href="">Sing out</a></li>
+            </ul>
+          </div>
           <li class="header__item navbar-right__shopping-cart">
             <figure class="header__content navbar-right__shopping-cart-icon"><img src="https://drive.google.com/uc?id=1XOzXCGlZQbNBXY7410nFMacq810IvY4d" alt="Shopping cart"/></figure>
             <p class="header__content navbar-right__products-number">2</p>
@@ -224,6 +231,6 @@
         </section>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <script src="../../dist/menu/desktop.js"> </script>
   </body>
 </html>

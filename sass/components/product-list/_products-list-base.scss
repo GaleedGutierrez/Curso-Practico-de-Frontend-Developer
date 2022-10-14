@@ -1,4 +1,7 @@
-@include hundread-percent-height;
+@import "../global/mixins";
+@import "../global/typography";
+@import "../global/colors";
+@include hundred-percent-height;
 
 .my-order {
     display: grid;

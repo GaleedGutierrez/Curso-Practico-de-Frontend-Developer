@@ -1,4 +1,5 @@
-@include hundread-percent-height;
+@import "../global/mixins";
+@include hundred-percent-height;
 
 .main {
     width: 100%;

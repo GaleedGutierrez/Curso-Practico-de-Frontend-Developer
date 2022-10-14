@@ -1,4 +1,5 @@
-@import "../global/global";
+@import "./header";
+@import "../menus/desktop-menu";
 
 .header__menu {
     display: none;
@@ -6,11 +7,12 @@
 
 .navbar-left__categories-container {
     display: flex;
-    margin-left: 1.5rem;
+    // margin-left: 1.5rem;
 }
 
 .navbar-right__email {
     display: flex;
-    margin-right: 1rem;
     font-size: $small;
+    cursor: pointer;
+    user-select: none;
 }

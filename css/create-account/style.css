@@ -26,7 +26,6 @@ html {
 
 body {
   font-family: "Quicksand", sans-serif;
-  font-size: 1.6rem;
 }
 
 img,
@@ -35,33 +34,30 @@ svg {
   height: 100%;
 }
 
-.logo-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  grid-gap: 0.427rem;
-  place-items: center;
+.inactive {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+.input-title {
+  margin-bottom: 0.6rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: initial;
+}
+
+.input {
   width: 100%;
-}
-
-.logo {
-  width: 2.635rem;
-  height: 2.635rem;
-  -ms-grid-column-align: end;
-      justify-self: end;
-}
-
-.logo__title {
-  font-size: 2.4rem;
-  display: inline-block;
-  -ms-grid-column-align: start;
-      justify-self: start;
-}
-
-.logo__title--green {
-  text-transform: uppercase;
-  color: #acd9b2;
+  max-width: 34rem;
+  height: 4.2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  background-color: #f7f7f7;
 }
 
 .button-forms {
@@ -79,7 +75,6 @@ svg {
   color: #ffffff;
   background-color: #acd9b2;
 }
-
 .button-forms--primary:focus {
   background-color: #91B888;
 }
@@ -89,7 +84,6 @@ svg {
   color: #acd9b2;
   background-color: #ffffff;
 }
-
 .button-forms--secondary:focus {
   color: #ffffff;
   background-color: #acd9b2;
@@ -119,7 +113,7 @@ html, body, main {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto 1fr auto;
-      grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
   width: 90%;
   margin-top: 4rem;
   text-align: center;
@@ -128,11 +122,9 @@ html, body, main {
 .form-container__title-container {
   margin-bottom: 4.2rem;
 }
-
 .form-container__title-container .title {
   margin-bottom: 0.9rem;
 }
-
 .form-container__title-container .subtitle {
   font-weight: 300;
 }
@@ -142,35 +134,29 @@ html, body, main {
 }
 
 .main__form-container {
-  place-items: center;
-  -ms-grid-rows: auto 1fr (auto)[3];
-      grid-template-rows: auto 1fr repeat(3, auto);
+  height: 100%;
+  margin: 0;
 }
 
-.email-image-container {
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-  width: 15.3rem;
-  height: 15.3rem;
-  border-radius: 50%;
-  background-color: #f7f7f7;
+.form-container__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
 }
 
-.email-image-container .email-image {
-  width: 9rem;
+.form-container__title-container .title {
+  text-align: start;
+  margin: 0;
 }
 
-.button-login {
-  margin: 3.8rem 0 3rem;
+.button-create {
+  margin-bottom: 2.5rem;
 }
-
-.main__resent .resent__text,
-.main__resent .resent__ancho {
-  font-weight: 500;
-}
-
-.main__resent .resent__anchor {
-  color: #acd9b2;
-}
-/*# sourceMappingURL=style.css.map */
