@@ -1,5 +1,7 @@
 extend ../components/global/_global.pug
 block head
+    - const SEE_HEADER = false
+    - const SEE_FOOTER = false
     +style-head("create-edit-account/style.css")
     +style-head-responsive("create-edit-account/desktop.css", "1024")
     +titles("Create")

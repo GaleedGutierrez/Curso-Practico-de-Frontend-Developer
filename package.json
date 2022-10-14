@@ -1,0 +1,27 @@
+{
+  "name": "curso-practico-de-frontend-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-pug": "pug --watch ./pug --out ./html -P"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaleedGutierrez/Curso-Practico-de-Frontend-Developer.git"
+  },
+  "author": "Galeed Gutierrez <galeedeveloper@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GaleedGutierrez/Curso-Practico-de-Frontend-Developer/issues"
+  },
+  "homepage": "https://github.com/GaleedGutierrez/Curso-Practico-de-Frontend-Developer#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "pug": "^3.0.2",
+    "pug-cli2": "^1.0.0-alpha6.1",
+    "typescript": "^4.8.4"
+  }
+}

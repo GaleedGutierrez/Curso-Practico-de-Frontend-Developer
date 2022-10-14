@@ -5,6 +5,9 @@ html(lang="en")
         include ./_head.pug
         block head 
     body
-        include ./_header.pug
+        if SEE_HEADER
+            include ./_header.pug
         block main 
-        include ./_footer.pug
+        if SEE_FOOTER
+            include ./_footer.pug
+        block scripts

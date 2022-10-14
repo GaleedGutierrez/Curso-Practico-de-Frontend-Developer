@@ -1,9 +1,14 @@
 .desktop-menu {
+    position: absolute;
+    top: 4.5rem;
+    right: 3rem;
     width: 15.3rem;
     height: auto;
     padding: 2.5rem;
     border: 0.1rem solid $very-light-pink;
     border-radius: 0.6rem;
+    background-color: $white;
+    transition-duration: 400ms;
 }
 
 .desktop-menu__item {

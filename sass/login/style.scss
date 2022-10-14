@@ -1,4 +1,5 @@
-@import "../components/global/global";
+@import "../components/global/global-styles";
+@import "../components/global/base-styles";
 @import "../components/global/input";
 @import "../components/global/logo-yard-sale";
 @import "../components/global/buttons";
@@ -13,7 +14,6 @@
     margin-top: 3rem;
     color: $hospital-green;
 }
-
 
 .signup-button {
     width: 90%;

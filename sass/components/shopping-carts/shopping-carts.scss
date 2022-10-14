@@ -1,8 +1,9 @@
+@import "../global/typography";
+@import "../global/colors";
 @import "../product-list/products-details";
 @import "../../my-order/style.scss";
-@import "../global/buttons";
 
-html, body,main {
+html, body, main {
     height: inherit;
 }
 

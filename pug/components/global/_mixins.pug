@@ -2,10 +2,10 @@ mixin titles(title)
     title=title 
 
 mixin style-head(style)
-    link(rel="stylesheet", href="../css/"+style)
+    link(rel="stylesheet", href="../../css/"+style)
 
 mixin style-head-responsive(stylesResponsive, screen) 
-    link(rel="stylesheet", href="../css/"+stylesResponsive media="screen and (min-width:" +screen+"px)")
+    link(rel="stylesheet", href="../../css/"+stylesResponsive media="screen and (min-width:" +screen+"px)")
 
 mixin figure-img(srcImg, altImg)
     figure(class!=attributes.class)
@@ -80,3 +80,43 @@ mixin products-details(img800 ,srcImg, altImg, price, name, description)
                         circle(cx="29" cy="13" r="6" fill="white")
                         path(d="M31.5263 12.5263H29.4737V10.4737C29.4737 10.2147 29.2653 10 29 10C28.7411 10 28.5263 10.2084 28.5263 10.4737V12.5263H26.4737C26.2147 12.5263 26 12.7347 26 13C26 13.1326 26.0505 13.2463 26.1389 13.3347C26.2274 13.4232 26.3411 13.4737 26.4737 13.4737H28.5263V15.5263C28.5263 15.6589 28.5768 15.7726 28.6653 15.8611C28.7537 15.9495 28.8674 16 29 16C29.2589 16 29.4737 15.7916 29.4737 15.5263V13.4737H31.5263C31.7853 13.4737 32 13.2653 32 13C32 12.7411 31.7916 12.5263 31.5263 12.5263Z" fill="#ACD9B2" stroke="#ACD9B2")
                 span Add to cart
+
+mixin mobile-drop-down-menu-header()
+    .mobile-menu   
+    .mobile-menu__categories-orders-account-container
+        ul.mobile-menu__conteiners.mobile-menu__categories-container
+            li.mobile-menu__item
+                a(href="").mobile-menu__text.mobile-menu__categories-text CATEGORIES 
+            li.mobile-menu__item
+                a(href="").mobile-menu__text.mobile-menu__categories-text All
+            li.mobile-menu__item
+                a(href="").mobile-menu__text.mobile-menu__categories-text Clothes
+            li.mobile-menu__item
+                a(href="").mobile-menu__text.mobile-menu__categories-text Electronics
+            li.mobile-menu__item
+                a(href="").mobile-menu__text.mobile-menu__categories-text Furnitures
+            li.mobile-menu__item
+                a(href="").mobile-menu__text.mobile-menu__categories-text Toys
+            li.mobile-menu__item
+                a(href="").mobile-menu__text.mobile-menu__categories-text Others
+        ul.mobile-menu__conteiners.mobile-menu__orders-and-account-container
+            li.mobile-menu__item
+                a(href="").mobile-menu__text My orders
+            li.mobile-menu__item
+                a(href="").mobile-menu__text My account
+    ul.mobile-menu__conteiners.mobile-menu__email-sign-out-container
+        li.mobile-menu__item
+            a(href="").mobile-menu__text.mobile-menu__email example@gmail.com
+        li.mobile-menu__item
+            a(href="").mobile-menu__text.mobile-menu__sign-out Sign out
+
+
+mixin desktop-drop-down-menu-header()
+    .desktop-menu.inactive
+        ul.desktop-menu__item-container 
+            li.desktop-menu__item
+                a(href="").desktop-menu__text.desktop-menu__title  My orders
+            li.desktop-menu__item
+                a(href="").desktop-menu__text My account
+            li.desktop-menu__item.desktop-menu__sing-out-container
+                a(href="").desktop-menu__text.desktop-menu__sing-out Sing out

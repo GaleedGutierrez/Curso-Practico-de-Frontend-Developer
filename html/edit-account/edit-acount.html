@@ -7,12 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&amp;family=Roboto:wght@700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/create-edit-account/style.css"/>
-    <link rel="stylesheet" href="../css/create-edit-account/desktop.css" media="screen and (min-width:1024px)"/>
-    <title>Create</title>
+    <link rel="stylesheet" href="../../css/edit-account/style.css"/>
+    <link rel="stylesheet" href="../../css/edit-account/desktop.css" media="screen and (min-width:1024px)"/>
+    <title>My information</title>
   </head>
   <body>
-    <header class="header"></header>
     <main class="main">
       <section class="main__login">
         <section class="main__form-container">
@@ -22,23 +21,22 @@
           <form class="form-container__form" action="">
             <div class="form-div">
               <label class="label" for="name">
-                <p class="input-title">Name</p>
-                <input class="input input-name" id="name" type="text" name="name" placeholder="Your name" autocomplete="name" required="required"/>
+                <p class="form__title input-title">Name</p>
+                <p class="value">Camila Yokoo</p>
               </label>
               <label class="label" for="email">
-                <p class="input-title">Email address</p>
-                <input class="input input-email" id="email" type="email" name="email" placeholder="youremail@gmail.com" autocomplete="email" required="required"/>
+                <p class="form__title input-title">Email address</p>
+                <p class="value">camilayokoo@gmail.com</p>
               </label>
               <label class="label" for="password">
-                <p class="input-title">Password</p>
-                <input class="input input-password" id="password" type="password" name="password" placeholder="Password" autocomplete="new-password" required="required"/>
+                <p class="form__title input-title">Password</p>
+                <p class="value">*********</p>
               </label>
             </div>
-            <input class="button-forms button-forms--primary button-create" type="submit" value="Create"/>
+            <input class="button-forms button-forms--secondary button-create" type="submit" value="Edit"/>
           </form>
         </section>
       </section>
     </main>
-    <footer class="footer"></footer>
   </body>
 </html>
