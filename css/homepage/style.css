@@ -81,11 +81,16 @@ p {
 }
 
 .mobile-menu {
+  position: absolute;
+  top: 5.5rem;
   display: -ms-grid;
   display: grid;
-  height: 100%;
+  width: 100%;
   min-height: 645px;
   padding: 12%;
+  background-color: #ffffff;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
 }
 
 .mobile-menu__conteiners {
@@ -131,6 +136,10 @@ p {
 
 .mobile-menu__sign-out {
   color: #acd9b2;
+}
+
+.desktop-menu {
+  display: none;
 }
 
 .header {

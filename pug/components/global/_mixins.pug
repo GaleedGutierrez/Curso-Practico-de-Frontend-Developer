@@ -82,33 +82,33 @@ mixin products-details(img800 ,srcImg, altImg, price, name, description)
                 span Add to cart
 
 mixin mobile-drop-down-menu-header()
-    .mobile-menu   
-    .mobile-menu__categories-orders-account-container
-        ul.mobile-menu__conteiners.mobile-menu__categories-container
+    .mobile-menu.inactive
+        .mobile-menu__categories-orders-account-container
+            ul.mobile-menu__conteiners.mobile-menu__categories-container
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text.mobile-menu__categories-text CATEGORIES 
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text.mobile-menu__categories-text All
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text.mobile-menu__categories-text Clothes
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text.mobile-menu__categories-text Electronics
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text.mobile-menu__categories-text Furnitures
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text.mobile-menu__categories-text Toys
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text.mobile-menu__categories-text Others
+            ul.mobile-menu__conteiners.mobile-menu__orders-and-account-container
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text My orders
+                li.mobile-menu__item
+                    a(href="").mobile-menu__text My account
+        ul.mobile-menu__conteiners.mobile-menu__email-sign-out-container
             li.mobile-menu__item
-                a(href="").mobile-menu__text.mobile-menu__categories-text CATEGORIES 
+                a(href="").mobile-menu__text.mobile-menu__email example@gmail.com
             li.mobile-menu__item
-                a(href="").mobile-menu__text.mobile-menu__categories-text All
-            li.mobile-menu__item
-                a(href="").mobile-menu__text.mobile-menu__categories-text Clothes
-            li.mobile-menu__item
-                a(href="").mobile-menu__text.mobile-menu__categories-text Electronics
-            li.mobile-menu__item
-                a(href="").mobile-menu__text.mobile-menu__categories-text Furnitures
-            li.mobile-menu__item
-                a(href="").mobile-menu__text.mobile-menu__categories-text Toys
-            li.mobile-menu__item
-                a(href="").mobile-menu__text.mobile-menu__categories-text Others
-        ul.mobile-menu__conteiners.mobile-menu__orders-and-account-container
-            li.mobile-menu__item
-                a(href="").mobile-menu__text My orders
-            li.mobile-menu__item
-                a(href="").mobile-menu__text My account
-    ul.mobile-menu__conteiners.mobile-menu__email-sign-out-container
-        li.mobile-menu__item
-            a(href="").mobile-menu__text.mobile-menu__email example@gmail.com
-        li.mobile-menu__item
-            a(href="").mobile-menu__text.mobile-menu__sign-out Sign out
+                a(href="").mobile-menu__text.mobile-menu__sign-out Sign out
 
 
 mixin desktop-drop-down-menu-header()

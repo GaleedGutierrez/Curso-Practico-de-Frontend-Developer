@@ -1,9 +1,15 @@
 @import "./header";
 @import "../menus/desktop-menu";
 
-.header__menu {
+.header__menu,
+.mobile-menu {
     display: none;
 }
+
+.desktop-menu {
+    display: inline-block;
+}
+
 
 .navbar-left__categories-container {
     display: flex;
