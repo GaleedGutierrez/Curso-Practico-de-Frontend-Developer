@@ -120,3 +120,16 @@ mixin desktop-drop-down-menu-header()
                 a(href="").desktop-menu__text My account
             li.desktop-menu__item.desktop-menu__sing-out-container
                 a(href="").desktop-menu__text.desktop-menu__sing-out Sing out
+
+mixin shopping-cart-mixin()
+    aside.product-detail.inactive
+        .product-detail__title-container
+            +figure-img("1ysh11DQbWIoAWs_DTOcn7AQv79KaimVw", "Go back").product-detail__arrow
+            p.my-order__title My order
+        section.shopping-carts-container 
+            each cantidad in [1, 2, 3]
+                +product-cart-mixin("1obnGAPs1OMuh79GmVS1oejGCFwDBF-bB", "Bike", "$30")=cantidad
+        .my-order-content
+            .my-order-content__resume
+                +products-list("Total", "", "$560.00")
+            button.button-forms.button-forms--primary Checkout
