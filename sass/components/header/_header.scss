@@ -3,6 +3,10 @@
 @import "../global/logo-yard-sale";
 @import "../menus/mobile-menu";
 
+.desktop-menu {
+    display: none;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
