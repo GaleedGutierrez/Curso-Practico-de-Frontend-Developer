@@ -97,7 +97,7 @@ const renderProducts = (productsList: productCardInterface[]) => {
         </figure>
         <div class="product-details"> 
             <div class="product-info">
-                <p class="product-price">${PRODUCT.price}</p>
+                <p class="product-price">$${PRODUCT.price}</p>
                 <p class="product-name">${PRODUCT.name}</p>
             </div>
             <figure class="add-to-cart" tabindex="0" title="Add to cart icon">
