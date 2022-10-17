@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run-pug": "pug --watch ./pug --out ./html -P"
+    "run-pug": "pug --watch ./pug --out ./html -P",
+    "run-ts": "tsc --watch"
   },
   "repository": {
     "type": "git",
