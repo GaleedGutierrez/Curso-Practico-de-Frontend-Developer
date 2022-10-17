@@ -76,7 +76,7 @@ p {
 }
 
 .product-detail__product-photo {
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 0 2rem 2rem 2rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
